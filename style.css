@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -95,15 +95,15 @@ footer {
 }
 
 main {
-  width: 940px;
-  margin: 0 auto;
+  
 }
 
 form {
   margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
@@ -114,7 +114,6 @@ form label, form legend {
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
-
 }
 
 .checkbox {
@@ -149,7 +148,8 @@ thead {
   font-weight: bold;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #000000;
   padding: 8px 15px;
 }
@@ -165,12 +165,19 @@ td, th {
   clear: left;
 }
 
+.principal {
+  padding: 3em 0;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
+}
+
 .principal p {
   margin: 0 0 1em;
 }
 
 .principal strong {
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .principal em {
@@ -183,17 +190,51 @@ td, th {
   margin: 0 20px 20px 0;
 }
 
-.imagembeneficios {
-  width: 60%;
-}
-
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.beneficios {
+  padding: 3em 0;
+  background: #888888;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.itens:before {
+  content: "⭑";
+}
+
+.imagembeneficios {
+  width: 60%;
 }
 
 .video {
